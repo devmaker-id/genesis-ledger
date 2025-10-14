@@ -22,7 +22,7 @@ Tujuannya **edukasi dan riset**, bukan proyek spekulatif atau token komersial.
 ---
 
 ## 🧩 Struktur Proyek
-
+```bash
 genesis-ledger/
 ├── src/
 │ ├── core/
@@ -38,6 +38,7 @@ genesis-ledger/
 ├── package.json
 ├── README.md
 └── .gitignore
+```
 
 
 ---
@@ -58,4 +59,4 @@ genesis-ledger/
    ```bash
    git clone https://github.com/devmaker-id/genesis-ledger.git
    cd genesis-ledger
-
+  ```
