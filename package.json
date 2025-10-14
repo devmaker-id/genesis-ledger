@@ -1,0 +1,12 @@
+{
+  "name": "genesis-ledger",
+  "version": "1.0.0",
+  "description": "A minimal blockchain experiment inspired by Bitcoin Genesis Block",
+  "main": "src/core/chain.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/core/chain.js"
+  },
+  "author": "devmakerid",
+  "license": "MIT"
+}
