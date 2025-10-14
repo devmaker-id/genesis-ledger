@@ -59,4 +59,20 @@ genesis-ledger/
    ```bash
    git clone https://github.com/devmaker-id/genesis-ledger.git
    cd genesis-ledger
-  ```
+   ```
+
+2. npm i
+3. node src/test_wallet.js
+
+```bash
+~/genesis-ledger$ node src/test_wallet.js
+✅ Wallet berhasil dibuat:
+📜 Address : 65efb382e5221e95a0e3388f788ee64dbf28b6f7
+🔐 File    : ~/genesis-ledger/wallets/65efb382e5221e95a0e3388f788ee64dbf28b6f7.wallet.json
+🔁 Wallet berhasil dipulihkan:
+📜 Address : 65efb382e5221e95a0e3388f788ee64dbf28b6f7
+
+Perbandingan hasil:
+Address baru     : 65efb382e5221e95a0e3388f788ee64dbf28b6f7
+Address restore  : 65efb382e5221e95a0e3388f788ee64dbf28b6f7
+```
