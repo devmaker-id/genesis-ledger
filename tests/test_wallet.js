@@ -1,5 +1,5 @@
 // src/test_wallet.js
-import { createWallet, loadWalletFromMnemonic } from "./core/wallet.js";
+import { createWallet, loadWalletFromMnemonic } from "../src/core/wallet.js";
 
 // 🔹 Buat wallet baru
 const wallet = createWallet();

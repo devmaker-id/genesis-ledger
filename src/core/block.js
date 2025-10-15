@@ -32,4 +32,21 @@ export class Block {
     }
     console.log(`✅ Block mined: ${this.hash}`);
   }
+
+  hasValidTransactions() {
+    // Jika block tidak memuat array transaksi (contohnya genesis block)
+    if (!Array.isArray(this.data)) return true;
+
+    for (const tx of this.data) {
+      // transaksi null atau bukan object Transaction → lewati
+      if (!tx || typeof tx.isValid !== "function") continue;
+
+      if (!tx.isValid()) {
+        console.log("❌ Invalid transaction detected in block!");
+        return false;
+      }
+    }
+
+    return true;
+  }
 }
